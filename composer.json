@@ -5,6 +5,11 @@
     "require": {
         "php": ">=7.4"
     },
+    "autoload": {
+        "psr-4": {
+            "Ps\\DocTemplate\\": "src/"
+        }
+    },
     "extra": {
         "laravel": {
             "providers": [

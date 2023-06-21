@@ -11,8 +11,8 @@ class DocTemplateServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        $this->app->singleton('doc-template', function ($app) {
-            return new DocTemplate($app);
+        $this->app->bind('doc-template', function () {
+            return new DocTemplate;
         });
     }
 

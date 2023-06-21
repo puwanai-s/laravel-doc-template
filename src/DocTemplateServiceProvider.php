@@ -9,7 +9,7 @@ class DocTemplateServiceProvider extends ServiceProvider
     /**
      * Register services.
      */
-    public function register(): void
+    public function register()
     {
         $this->app->bind('doc-template', function () {
             return new DocTemplate;
@@ -19,7 +19,7 @@ class DocTemplateServiceProvider extends ServiceProvider
     /**
      * Bootstrap services.
      */
-    public function boot(): void
+    public function boot()
     {
         //
     }

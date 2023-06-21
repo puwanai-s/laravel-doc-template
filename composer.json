@@ -1,6 +1,7 @@
 {
     "name": "puwanai-s/laravel-doc-template",
     "description": "Easily create Word files with Word templates (.rtf)",
+    "license": "MIT",
     "require": {
         "php": ">=7.4",
         "another-vendor/package": "1.*"

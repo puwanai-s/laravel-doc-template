@@ -3,7 +3,8 @@
     "description": "Easily create Word files with Word templates (.rtf)",
     "license": "MIT",
     "require": {
-        "php": ">=7.4"
+        "php": ">=7.4",
+        "phpoffice/phpword": "^1.1"
     },
     "autoload": {
         "psr-4": {

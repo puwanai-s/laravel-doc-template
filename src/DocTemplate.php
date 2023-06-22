@@ -2,6 +2,8 @@
 
 namespace Ps\DocTemplate;
 
+use PhpOffice\PhpWord\TemplateProcessor;
+
 class DocTemplate
 {
     function __construct()
